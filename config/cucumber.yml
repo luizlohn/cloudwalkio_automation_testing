@@ -1,1 +1,1 @@
-consult:  -t @consulta
+device:  -t @devices -t ~@no_implemented
