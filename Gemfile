@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'dogapi'
+gem 'capybara'
 gem 'cucumber'
-gem 'rspec'
+gem 'os'
 gem 'rake'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'site_prism'

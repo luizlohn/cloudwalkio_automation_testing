@@ -4,3 +4,5 @@ services:
     build: .
     volumes:
       - .:/app/
+    command: bundle exec rake run[qa1,true,device] BROWSER=chrome
+

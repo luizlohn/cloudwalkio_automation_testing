@@ -1,10 +1,9 @@
-# CargoX Tests Alarm
+# Cloud Walkio Automates Testing
 
-# Automation Test for Alarms
-Testing Alarms from DataDog, using the libs:
-- Cucumber:Write scenarios in Gherkin 
+# Automation Test for Cloud Walkio
+tests use the libs:
+- Cucumber: Write scenarios in Gherkin 
 - Rake: Process automation of task
-- DataDog API: Access the DataDog Monitors and alarms
 - RSpec: Result validation
 
 
@@ -22,12 +21,12 @@ $ ruby -v
 ### Clone project ###
 Clone the project using the follow command:
 ```shell
-git clone git@github.com:cargox/cargox_test_alarm.git
+git clone git@github.com:luizlohn/cloudwalkio_automation_testing.git
 ```
 
 Access project root path to install bundle:
 ```shell
-cd /cargox_test_alarm
+cd /cloudwalkio_automation_testing
 ```   
 ---
 ## Run locally
@@ -44,8 +43,8 @@ Execute this command inside the project:
 $ rake run[ENV,DEBUGGER,PROFILE]
 ```
 Understand command:  
-ENV: qa1, qa2... 
-DEBUGGER: true, false
+ENV: qa1, qa2...  
+DEBUGGER: true, false  
 PROFILE: [profiles](config/cucumber.yml)  
 
 Example: 
@@ -64,5 +63,5 @@ $ docker-compose build
 ### Running Docker
 ```sh
 $ docker-compose run --rm app rake run[qa1,true,consult]
+
 ```
-# cloudwalkio_automation_testing
